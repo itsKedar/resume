@@ -6,16 +6,36 @@
 /* .navbar{
   background-color:black ;
 } */
+h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+h2{
+  font-family: 'Ubuntu', sans-serif;
+}
+h3
+{
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  font-family: 'Ubuntu', sans-serif;
+}
 .my-pic{
   width: 12rem;
   height: 12rem;
-
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .com-pic{
-  width: 64rem;
+  width: 63rem;
   height: 38rem;
   -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
   filter: blur(4px);
+}
+
+@media (max-width:1028px) {
+  .com-pic{
+    width: 61rem;
+  }
 }
 .row{
   margin-right: 0;
@@ -33,7 +53,7 @@ padding: 0;
 
 .nav-link{
    font-size: 1.2rem;
-   font-family: "Montserrat-light";
+   font-family: "Montserrat";
 }
 
 .container-div {
@@ -52,7 +72,7 @@ padding: 0;
   font-size: 5rem;
 }
 .Download-btn{
-  margin-top: 8rem
+  margin : 4rem 0;
 }
 
 /* About */
@@ -106,9 +126,12 @@ padding: 0;
   text-align: center;
 }
 .card1{
-  padding-bottom: 10%;
+  padding-bottom: 8.5%;
 }
 
+.card1 h3{
+  padding-top: 0.5rem;
+}
 /* footer */
 #footer{
   text-align: center;
