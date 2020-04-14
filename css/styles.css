@@ -89,6 +89,10 @@ padding: 0;
 {
   padding: 7% 15%;
   background-color: #63686e;
+
+}
+.edu-div h2{
+  text-align: center;
   color: white;
 }
 .edu-div h3{
@@ -99,6 +103,52 @@ padding: 0;
   line-height: 0.5;
 }
 
+.timeline{
+  list-style-type: none;
+  position: relative;
+}
+
+.timeline::before{
+  content: '';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 1;
+}
+.timeline li
+{
+  margin: 20px 0 20px 20px;
+  padding-bottom: 8px;
+  background: #fff;
+}
+.timeline li p
+{
+  padding-top: 5px;
+  padding-left: 8px;
+}
+.timeline li h3
+{
+  background-color: #343a40;
+  padding: 5px 0 5px 20px;
+  color: #fff;
+  font-size: 20px;
+}
+.timeline li::before
+{
+  content: '';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #343a40;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
 /* skills */
 #skills{
   padding: 7% 15%;
